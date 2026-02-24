@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+  img{
+    width: 300px;
+    height:auto;
+    border:1px black solid;
+    margin:1px;
+  }
+  div{
+    display:grid;
+    /* height:100vh; */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* grid-template-columns: 100px 100px 400px; */
+    /* grid-template-columns: 100px 100px auto; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 2fr 1fr 1fr; */
+
+    /* grid-template-columns:repeat(3, 1fr); */
+    /* grid-template-columns:repeat(4, 1fr); */
+    /* grid-template-columns:repeat(3, minmax(240px, 1fr)); */
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 160px;
+    column-gap: 20px;
+
+    /* grid-template-rows:200px 200px; */
+    /* grid-template-rows:200px auto 200px; */
+    
+    /* gap: 16px; */
+    /* column-gap:10px; */
+    /* row-gap:16px; */
+  }
+</style>
+<body>
+    <div>
+      <img src="images/無題106.png" alt="">
+      <img src="images/無題108.png" alt="">
+      <img src="images/無題111.png" alt="">
+      <img src="images/無題114.png" alt="">
+      <img src="images/無題123.png" alt="">
+      <img src="images/無題124.png" alt="">
+      <img src="images/無題126.png" alt="">
+      <img src="images/無題128.png" alt="">
+      <img src="images/無題130.png" alt="">
+    </div>
+</body>
+</html>

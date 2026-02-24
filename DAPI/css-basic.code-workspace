@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../css-basic"
+		},
+		{
+			"path": "../ディオスケルツォ公式"
+		},
+		{
+			"path": "../flexbox"
+		},
+		{
+			"path": "../css_grid"
+		},
+		{
+			"path": "../模型ブログ"
+		},
+		{
+			"path": "../portfolio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DAPI"
+	}
+}

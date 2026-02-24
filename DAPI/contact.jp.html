@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAPI | お問い合わせ</title>
+</head>
+<body>
+  <h1>お問い合わせ</h1>
+
+  <table border="1">
+      <dl>
+          <tr>
+            <td><dt><label for="username">お名前</label></dt></td>
+            <td><dd><input id="username"" name="username"></dd></td>
+          </tr>
+
+          <tr>
+            <td><dt><label for="mail">メールアドレス</label></dt></td>
+            <td><dd><input id="mail" type="text" name="email"></dd></td>
+          </tr>
+
+          <tr>
+            <td><dt><label for="area">お住まいの地域</label></dt></td>
+            <td>
+              <dd>
+                <select id="area" name="area">
+                  <option value="">選択してください</option>
+                  <option value="hokkaido">北海道</option>
+                  <option value="tohoku">東北</option>
+                  <option value="kanto">関東</option>
+                  <option value="chuibu">中部</option>
+                  <option value="kinki">近畿</option>
+                  <option value="shikoku">四国</option>
+                  <option value="kyushu">九州</option>
+                  <option value="okinawa">沖縄</option>
+                </select>
+              </dd>
+            </td>
+          </tr>
+
+          <tr>
+            <td><dt>性別</dt></td>
+            <td>
+              <dd>
+              <label><input type="radio" name="gender" value="male" checked>男性</label>
+              <label><input type="radio" name="gender" value="female">女性</label>
+              </dd>
+            </td>
+          </tr>
+
+          <tr>
+            <td><dt>お問い合わせの内容</dt></td>
+            <td><dd><textarea name="contents"></textarea></dd></td>
+          </tr>
+        </dl>
+    </table>
+
+    <dl>
+      <dt>プライバシーポリシーに同意する</dt>
+      <dd><input type="checkbox" name="privacy" value="1" checked></dd>
+      <hr>
+      <input type="submit" value="送信">
+    </dl>
+
+    <footer><small>&copy; DAPI 2025</small></footer>
+  
+</body>
+</html>
